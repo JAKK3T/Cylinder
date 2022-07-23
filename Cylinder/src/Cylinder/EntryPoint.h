@@ -6,7 +6,10 @@ extern Cylinder::Application* Cylinder::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Cylinder Engine");
+	Cylinder::Log::Init();
+	CYL_CORE_WARN("Initialized Core Logger!");
+	CYL_INFO("Initialized Client Logger!");
+
 	auto app = Cylinder::CreateApplication();
 	app->Run();
 	delete app;

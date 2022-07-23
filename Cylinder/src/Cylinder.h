@@ -2,8 +2,8 @@
 
 // For use by Cylinder applications
 
-#include <stdio.h>
-#include <Cylinder/Application.h>
+#include "Cylinder/Application.h"
+#include "Cylinder/Log.h"
 
 //------Entry Point---------------------
 #include "Cylinder/EntryPoint.h"
